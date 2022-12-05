@@ -64,3 +64,9 @@ systemctl start clash
 systemctl status clash
 systemctl stop clash
 ```
+
+## docker启动代理
+
+```sh
+docker run --env ALL_PROXY="http://127.0.0.1:代理端口" --network host -ti image:tag /bin/bash
+```
