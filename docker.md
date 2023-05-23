@@ -144,7 +144,8 @@ docker import IMAGE_NAME.tar
 
 ```sh
 # 在容器内
-ctrl + p; ctrl + q
+ctrl + p
+ctrl + q
 ```
 
 14. 创建容器时指定ip映射
@@ -167,7 +168,7 @@ docker port container_ID
 > 在空白目录中创建文本文件，命名为 Dockerfile:
 
 ```sh
-mkdir  my_image
+mkdir my_image
 cd my_image
 touch Dockerfile
 ```
